@@ -12,7 +12,7 @@ public class SrsAppApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SrsAppApplication.class, args);
-		System.out.println("Spring-Boot Raw Product Application running on port No: 8585...");
+		System.out.println("Spring-Boot Swagger Ui Application running on port No: 8585...");
 	}
 
 }
