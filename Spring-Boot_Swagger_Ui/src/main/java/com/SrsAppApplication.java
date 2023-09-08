@@ -18,6 +18,14 @@ public class SrsAppApplication {
 }
 		/*
 		 *  Steps:-
+   		 *  Add: 
+      			<!-- Working with Swagger UI -->
+			<dependency>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+			<version>2.1.0</version>
+			</dependency>
+   		 * Run:
 		 *  swagger: http://localhost:8585/product_info/v3/api-docs | Send all controller info
 		 *  swagger-ui: http://localhost:8585/product_info/swagger-ui.html  |  redirect to swagger-ui
 		 *  Refer: https://springdoc.org/
